@@ -2,9 +2,13 @@
 module.exports = {
   content: ["*"],
   theme: {
+    
     extend: {
       fontFamily: {
         'nunito': ['Nunito Sans', 'sans-serif']
+      },
+      screens: {
+        'sm': '500px',
       },
       colors: {
         primary:"#008000",
@@ -26,20 +30,7 @@ module.exports = {
         fall:'fallAway 1s linear 1'
       }
      },
-     screens: {
-      'xs': '493px',
-
-      'sm': '640px',
-
-      'md': '728px',
-
-      'lg': '920px',
-
-      'xl': '1280px',
-
-      '2xl': '1536px'
-      
-    },
+     
     
   },
   plugins: [],

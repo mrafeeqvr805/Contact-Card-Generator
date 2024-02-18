@@ -5,7 +5,7 @@ module.exports = {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        admin: resolve(__dirname, 'new.html')
+        mainjs: resolve(__dirname, 'index.js'),
       }
     }
   }
